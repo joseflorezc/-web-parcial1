@@ -1,0 +1,9 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+p[id="footer"] {
+  size: 10 px;
+  text-align: center;
+}

@@ -1,0 +1,117 @@
+<html>
+  <head>
+    <title>Restaurant & Lounge</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+  a[id="Logo"] {
+  font-family: "Satisfy", cursive;
+  color: black;
+  }
+    </style>
+
+  </head>
+
+  <body>
+   
+    <div class="container-fluid">
+      <header>
+        
+          <div class="row align-items-center">
+          
+            <div class="col-3" ><a class="navbar-brand" href="#" id="Logo">Restaurant & Lounge</a></div>
+            <div class="col-6"></div>
+            <div class="col-3 d-flex justify-content-end align-items-center"><img
+            src="./images/carrocompras.png"
+            class="align-right px-3"
+            alt="carro comparas"
+            height="30px"
+            width="auto"
+        /> <p>items</p> </div>
+              </div>
+
+      </header>
+
+    <hr>
+    
+      <div class="row">
+      <img
+          src="./images/hamburguesa.png"
+          class="img-fluid px-3"
+          alt="hamburguesa"
+          width="100%"
+          height="75%"
+          
+          
+        />
+     
+    </div>
+
+    <hr>
+ 
+      <div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a onclick="hamburguesas(this)" class="nav-link text-white" href="#nombreProducto" id="burgers">Burgers</a>
+              </li>
+              <li class="nav-item">
+                <a onclick="tacos(this)" class="nav-link text-white" href="#nombreProducto" id="tacos">Tacos</a>
+              </li>
+              <li class="nav-item">
+                <a  onclick="salads(this)"class="nav-link text-white" href="#nombreProducto" id="salads">Salads</a>
+              </li>
+              <li class="nav-item text-white">
+                <a onclick="desserts(this)" class="nav-link text-white" href="#nombreProducto" id="desserts">Desserts</a>
+              </li>
+              <li class="nav-item">
+                <a  onclick="drinksandsides(this)" class="nav-link text-white" href="#nombreProducto" id="drinkandsides">Drink & Sides</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+      </div>
+      
+    </div>
+  
+      <main>
+
+        <div>
+          <hr>
+        <div id="nombreProducto">f</div>
+          <hr>
+
+        <div id="listaProductos"></div>
+      
+      </div>
+      
+      
+        
+      </main>
+    </hr>
+      <footer class="py-4">
+        <div class="row">
+        <div class="col-4"></div>
+        <div class="col-5 align-items-center"><p id="footer" style = "font-size: small;">contact us: +57 3102105253 - info@restaurant.com - @restaurant</p></div>
+        <div class="col-3"></div>
+      </div>
+      </footer>
+    
+      <script src="./app.js"></script>
+  </body>
+</html>
